@@ -1,3 +1,6 @@
+/**
+ * 方法重写后的调用是通过实际类型确定的
+ */
 public class DynamicDispatch {
     static abstract class Human {
         protected abstract void sayHello();
