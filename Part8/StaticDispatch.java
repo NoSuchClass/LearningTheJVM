@@ -1,8 +1,12 @@
 /**
  * 0.方法调用时的静态分配，也是方法重载原理的体现
+ * 3.result：
+ * hello guy
+ * hello guy
+ * 编译器在重载时是通过静态类型而不是实际类型来判断调用哪个版本的方法
  */
 public class StaticDispatch {
-    // 这儿就体现了实际类型的变化只有在运行期的时候才知道
+    // 2.这儿就体现了实际类型的变化只有在运行期的时候才知道
     static Human woman;
     static void sayHello(Human guy) {
         System.out.println("hello guy");
